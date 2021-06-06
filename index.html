@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>A pointless tab</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+</head>
+<body>
+<div id="gridspace">
+</div>
+<div id="setting" class="setting">
+    <div></div>
+    <span class="set">
+        I want a grid of
+    </span>
+    <select id="y_setting" class="set">
+        <option value="4">4</option>
+        <option value="6">6</option>
+        <option selected="selected" value="10">10</option>
+        <option value="12">12</option>
+        <option value="16">16</option>
+        <option value="20">20</option>
+    </select>
+    <span> by </span>
+    <select id="x_setting" class="set">
+        <option value="4">4</option>
+        <option value="6">6</option>
+        <option selected="selected" value="10">10</option>
+        <option value="12">12</option>
+        <option value="16">16</option>
+        <option value="20">20</option>
+    </select>
+    <span>
+        using the palette
+    </span>
+    <select id="color_palette">
+    </select>
+    <span>
+        with
+    </span>
+    <select id="color_numbers">
+        <option selected="selected" value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select>
+    <span>
+        colors
+    </span>
+
+    <span>
+        and clicker interval of
+    </span>
+    <select id="clicker_setting" class="set">
+        <option value="100">100 ms</option>
+        <option value="200">200 ms</option>
+        <option selected="selected" value="500">500 ms</option>
+        <option value="1000">1000 ms</option>
+        <option value="2000">2000 ms</option>
+    </select>
+    <span>
+        and propagation delay of
+    </span>
+    <select id="propagation_setting" class="set">
+        <option value="100">100 ms</option>
+        <option selected="selected" value="200">200 ms</option>
+        <option  value="300">300 ms</option>
+        <option value="500">500 ms</option>
+    </select>
+
+    <button id="button_new_settings" class="settings-button">
+        Ok
+    </button>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "palettes": [
+
+    {
+      "id": "0",
+      "name": "Bright",
+      "colors": ["#F23E3D", "#6C3FFC", "#45E6DD", "#A2FC3F", "#F5AA22"]
+    },
+    {
+      "id": "1",
+      "name": "UnderYellow",
+      "colors": ["#ACACAC", "#CDD1CC", "#E2C547", "#C2DDC8", "#99BFB3"]
+    },
+    {
+      "id": "2",
+      "name": "Anne",
+      "colors": ["#F6CBE4", "#FFA5EB", "#FF91FE", "#FC2E7C", "#C933FC"]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+body {
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgb(59, 59, 59) 100%);
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+span {
+    color: white;
+    font-size: large;
+}
+
+.column{
+    display:inline-block;
+}
+.setting{
+    padding-top: 1em;
+}
+
+button{
+    color: transparent;
+    display: block;
+    width: auto;
+    border-radius: 10em;
+    transform: scale(0.85);
+    padding: 10px;
+    background-color: transparent;
+}
+.settings-button{
+    font-size: medium;
+    color: white;
+    border-radius: 0px;
+    border-color: black;
+    transform: none;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: none;
+    border-color: transparent;
+}
+.settings-button:hover {
+    animation: none;
+    transform: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: none;
+}
+
+button:hover {
+    animation: pulse 2s;
+    box-shadow: 0 0 0 2em rgba(181, 181, 181, 0.2);
+    transform: scale(1);
+}
